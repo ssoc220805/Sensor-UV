@@ -9,10 +9,10 @@ Proyecto desarrollado para el curso **TEI201 — Taller de Diseño en Ingenierí
 
 ## Integrantes
 
-- [Nombre y apellido]
-- [Nombre y apellido]
-- [Nombre y apellido]
-- [Nombre y apellido]
+- Leo Castro
+- Sara Orellana
+- Cristian Yañez
+
 
 ---
 
