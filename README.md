@@ -18,8 +18,6 @@ Proyecto desarrollado para el curso **TEI201 — Taller de Diseño en Ingenierí
 
 ## El problema
 
-[Completar con el problema definido en el Avance 1. A modo de borrador:]
-
 Las personas que pasan tiempo al aire libre no cuentan con una forma directa e inmediata de saber qué tan intensa es la radiación ultravioleta a la que están expuestas ni cuándo deben tomar medidas de protección. La sobreexposición al sol es un factor de riesgo importante para la salud de la piel, y la información disponible suele ser general y no refleja las condiciones del lugar exacto donde se encuentra la persona.
 
 Este proyecto aborda ese problema entregando una medición local y en tiempo real de la radiación UV, junto con una recomendación clara de protección según el nivel detectado.
