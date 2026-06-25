@@ -45,7 +45,6 @@ El sistema implementa el ciclo completo de un dispositivo IoT:
 | Batería LiPo | 1 | 3.7 V recargable | Alimentación autónoma |
 | Controlador de carga | 1 | Li-Po Rider Pro | Gestión de carga de la batería |
 | Panel solar | 1 | 5 V de salida | Recarga de la batería |
-| Cables / protoboard | — | — | Conexiones |
 
 ### Conexiones
 
