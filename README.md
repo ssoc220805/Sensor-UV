@@ -30,7 +30,7 @@ El sistema implementa el ciclo completo de un dispositivo IoT:
 
 1. **Captura.** El sensor GY-ML8511 mide la intensidad de la radiación ultravioleta y el ESP32-S3 la convierte en un índice UV.
 2. **Información.** El índice se clasifica en una categoría de riesgo (baja, moderada, alta, muy alta, extrema) según la tabla del Índice UV.
-3. **Decisión.** El dispositivo comunica el resultado de dos formas: un LED RGB que cambia de color según el riesgo y un dashboard web que muestra el valor, una recomendación de protección y un resumen del día con los valores máximo y mínimo registrados.
+3. **Decisión.** El dispositivo comunica el resultado de dos formas: un LED RGB que cambia de color según el riesgo y una página web quemuestra el valor, una recomendación de protección y un resumen del día con los valores máximo y mínimo registrados,para esto tenemos que compartirle wifi al equipo y luego ingresar al link de la página ( https://lightskyblue-zebra-707371.hostingersite.com/ ).
 
 ---
 
