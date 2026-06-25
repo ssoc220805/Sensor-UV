@@ -57,7 +57,6 @@ El sistema implementa el ciclo completo de un dispositivo IoT:
 | VCC del sensor | 3.3 V |
 | GND | GND |
 
-> Nota: si el LED RGB es de ánodo común, cambiar la constante `ANODO_COMUN` a `true` en el firmware.
 
 ---
 
@@ -87,7 +86,7 @@ monitor-uv-tei201/
 ## Cómo cargar el firmware
 
 1. Instalar el [Arduino IDE](https://www.arduino.cc/en/software) y agregar el soporte para placas ESP32 (Gestor de Tarjetas).
-2. Abrir el archivo `firmware/monitor_uv_esp32.ino`.
+2. Abrir el archivo "firmware".
 3. En **Herramientas → Placa**, seleccionar **ESP32-S3**.
 4. Conectar la placa por USB y seleccionar el puerto correspondiente.
 5. Subir el código con el botón **Cargar**.
@@ -104,13 +103,13 @@ El dashboard lo sirve el propio ESP32, por lo que **no necesita estar alojado en
 2. Desde un celular o computador, conectarse a la red WiFi que crea el ESP32:
    - **Red:** `MonitorUV`
    - **Clave:** `uv123456`
-3. Abrir un navegador e ingresar a la dirección: **http://192.168.4.1**
+3. Abrir un navegador e ingresar a la página web: https://lightskyblue-zebra-707371.hostingersite.com/
 
-La página toma una lectura cada 5 minutos, muestra el índice UV actual con su recomendación y va construyendo el gráfico del día con los valores máximo y mínimo.
+La página toma una lectura cada 5 segundos, muestra el índice UV actual con su recomendación y va construyendo el gráfico del día con los valores máximo y mínimo.
 
 ### Probar el dashboard sin el dispositivo
 
-El archivo del dashboard (`firmware/monitor_uv.html`, incluido también dentro del firmware) puede abrirse directamente en un navegador. Al pulsar el botón **"Simular día (demo)"** se genera un día completo de datos de prueba, lo que permite revisar todas las secciones sin tener el hardware conectado.
+El archivo del dashboard puede abrirse directamente en un navegador. Al pulsar el botón **"Simular día (demo)"** se genera un día completo de datos de prueba, lo que permite revisar todas las secciones sin tener el hardware conectado.
 
 ---
 
